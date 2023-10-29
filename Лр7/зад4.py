@@ -10,39 +10,29 @@ class TaxiPark:
     @property
     def make(self):
         return self._make
-
     @make.setter
     def make(self, make):
         self._make = make
-
     @property
     def model(self):
         return self._model
-
     @model.setter
     def model(self, model):
         self._model = model
-
     @property
     def fuel_consumption(self):
         return self._fuel_consumption
-
     @fuel_consumption.setter
     def fuel_consumption(self, fuel_consumption):
         self._fuel_consumption = fuel_consumption
-
     @property
     def speed(self):
         return self._speed
-
     @speed.setter
     def speed(self, speed):
         self._speed = speed
-
     def __repr__(self):
         return f"{self.make} {self.model}"
-
-
 # Создаем список объектов класса TaxiPark
 taxi_park = [
     TaxiPark("Toyota", "Camry", 8, 200),
