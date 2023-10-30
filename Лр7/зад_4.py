@@ -33,6 +33,7 @@ class TaxiPark:
         self._speed = speed
     def __repr__(self):
         return f"{self.make} {self.model}"
+
 # Создаем список объектов класса TaxiPark
 taxi_park = [
     TaxiPark("Toyota", "Camry", 8, 200),
